@@ -2,8 +2,8 @@
 
 namespace NewsPaper.MassTransit.Contracts.DTO.Base
 {
-    public class DtoBase : IDto
+    public abstract class DtoBase : IDto
     {
-        public Guid Id { get; set; }
+        public abstract Guid Id { get; set; }
     }
 }

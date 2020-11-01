@@ -1,11 +1,11 @@
 ﻿using System;
 using NewsPaper.MassTransit.Contracts.DTO.Base;
 
-namespace NewsPaper.MassTransit.Contracts.DTO.Models
+namespace NewsPaper.MassTransit.Contracts.DTO.Models.Articles
 {
     public class ArticlesDto : DtoBase
     {
-        public Guid Id { get; set; }
+        public override Guid Id { get; set; }
 
         public string Title { get; set; }
 
@@ -18,6 +18,8 @@ namespace NewsPaper.MassTransit.Contracts.DTO.Models
         public string Text { get; set; }
 
         public string NikeNameAuthor { get; set; }
+
+        public string NikeNameEditor { get; set; }
 
         public Guid AuthorGuid { get; set; }
 

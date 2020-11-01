@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NewsPaper.MassTransit.Contracts.DTO.Requests
+namespace NewsPaper.MassTransit.Contracts.DTO.Requests.Articles
 {
     public class ArticlesByIdAuthorRequestDto
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using NewsPaper.MassTransit.Contracts.DTO.Models;
+using NewsPaper.MassTransit.Contracts.DTO.Models.Articles;
 
-namespace NewsPaper.MassTransit.Contracts.DTO.Responses
+namespace NewsPaper.MassTransit.Contracts.DTO.Responses.Articles
 {
     public class ArticlesResponseDto
     {
