@@ -2,7 +2,7 @@
 
 namespace NewsPaper.MassTransit.Contracts.DTO.Requests.Author
 {
-    public class NikeNameAuthorRequestDto
+    public class AuthorRequestDto
     {
         public Guid AuthorGuid { get; set; }
     }

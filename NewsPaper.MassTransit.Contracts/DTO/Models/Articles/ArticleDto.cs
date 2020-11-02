@@ -3,7 +3,7 @@ using NewsPaper.MassTransit.Contracts.DTO.Base;
 
 namespace NewsPaper.MassTransit.Contracts.DTO.Models.Articles
 {
-    public class ArticlesDto : DtoBase
+    public class ArticleDto : DtoBase
     {
         public override Guid Id { get; set; }
 
