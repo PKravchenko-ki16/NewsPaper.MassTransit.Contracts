@@ -1,6 +1,7 @@
 # NewsPaper.MassTransit.Contracts
  
 This ASP.NET Core 3.1 module is responsible for storing DTO Models, Exception Models, Requests Models, Responses Models.
+(extends to atomic microservices as a local nuget package)
 
 ## Naming conventions
 
